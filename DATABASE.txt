@@ -1,0 +1,9 @@
+CREATE DATABASE WSC;
+CREATE USER 'Jason'@'localhost' IDENTIFIED BY '515AC';
+GRANT ALL PRIVILEGES ON * . * TO 'Jason'@'localhost';
+CREATE TABLE argonautes (id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, nom VARCHAR(30) NOT NULL);
+INSERT INTO argonautes (nom) VALUES ('Eleftheria'),('Gennadios'),('Lysimachos');
+ 
+
+
+

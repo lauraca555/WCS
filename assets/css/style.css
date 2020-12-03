@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html{
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background: #f4f4f4;
+  
+}
+
+main{
+  height: 100%;
+  position: relative;
+}
+
+header img {
+  max-width: 96px;
+}
+
+.trash img {max-width: 20px;}
+
+footer {
+  height: 40px;
+  color: #fff;
+  background: #f76c6c;
+  /*position: absolute;*/
+  bottom:0;  
+  width:100%;
+}
